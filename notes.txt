@@ -1,0 +1,35 @@
+NOTES : 
+
+math we need:
+
+abs(x) -> always return real +ve number 
+
+min() -> returns minimum number from the array
+max() -> returns maximum number from the array
+
+range - > -1 ←──── 0 ────→ +1
+range example - 
+	phone angle
+
+	-45° → -1
+	0° →  0
+	+45° → +1
+
+mini project 1 : 
+q.Enter steering angle:
+> 25
+
+Steering:
+0.55
+
+done
+
+sockets TCP learn -> TECH WITH TIM SOCKETS PYTHON video completed
+
+
+
+
+
+
+
+
