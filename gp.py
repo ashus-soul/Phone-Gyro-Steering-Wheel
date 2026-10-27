@@ -1,5 +1,5 @@
 import vgamepad as vg
-gamepad=vg.VX360Gamepad()
+gamepad=vg.VX360Gamepad() #error -> befoere no () so no class
 try:
     while True:
         a=int(input("input : "))
