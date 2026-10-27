@@ -22,16 +22,16 @@ while True:
     try:
         # steering_angle=int(input("Enter Steering angle : "))
         steering_angle=z
-        if steering_angle<=4 and steering_angle>=-4:
-            a=steering_angle/4
-            if a>-0.3 and a<0.3:
+        if steering_angle<=6 and steering_angle>=-6:
+            a=steering_angle/6
+            if a>-0.1 and a<0.1:
                 print(abs(0))
             else: 
                 print(f"Steering : {a:.2f}")
-        elif steering_angle>-4 : 
-            print (1)
-        elif steering_angle<4 : 
-            print (1)
-                
+        elif steering_angle<-6: 
+            print (-1)
+        elif steering_angle>6:
+            print(1)
+
     except ValueError:
         print("NOT A NUMBER GNG")
