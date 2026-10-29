@@ -15,19 +15,16 @@ def run_sever_hb(message):
         try:
             hb=z
             if hb<4 and hb>=0:
-                hb=abs(1)
                 # print("hb braking")
-                return hb
+                return 1
 
             elif hb<0:
-                 hb=abs(0)
                 #  print("hb not braking out of range")
-                 return hb
+                 return 0
 
             else:
-                hb=abs(0)
                 # print("hb not braking")
-                return hb
+                return 0
             
         except ValueError:
             print("NOT A NUMBER GNG")
@@ -41,11 +38,11 @@ def run_server_acc(message):
             acc=x
             if acc<7:
                 acc=abs(1)
-                print("acc ok")
+                # print("acc ok")
                 return acc
             else:
                 acc=abs(0)
-                print("acc out of range")
+                # print("acc out of range")
                 return acc
         except ValueError:
             print("NOT A NUMBER GNG")
