@@ -162,6 +162,3 @@ A dedicated Android app is planned to replace HyperIMU. It will send the sensor 
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
