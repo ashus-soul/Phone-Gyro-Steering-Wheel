@@ -9,7 +9,7 @@ smooth_driveing=0.0 #felot for smoother controlssss -> too many value jittery co
 
 #formula for smooth driving -> 20%new + 80%old
 
-#zones -> tune these to your phone
+#zones -> tune acc to pehone - > used is gravity sensor in redmi note 8 pro , also work on gyro if tuned
 ACC_MAX=6   #x below this -> acc
 REV_MIN=8   #x above this -> rev   (between ACC_MAX and REV_MIN = dead zone, no acc no rev)
 HB_MIN=0    #z from HB_MIN to HB_MAX -> handbrake
