@@ -7,7 +7,6 @@ server.bind(("0.0.0.0",9999))
 
 smooth_driveing=0.0 #felot for smoother controlssss -> too many value jittery controls
 
-#formula for smooth driving -> 20%new + 80%old
 
 #zones -> tune acc to pehone - > used is gravity sensor in redmi note 8 pro , also work on gyro if tuned
 ACC_MAX=6   #x below this -> acc
